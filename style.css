@@ -31,7 +31,7 @@
     color: rgb(255, 255, 255);
     position: absolute;
     left: 230px;
-    bottom: 540;
+    bottom: 550;
     font-family: Optima, sans-serif;
     font-size: small;
 }
@@ -60,11 +60,21 @@
     font-size: x-large;
     cursor: pointer;
 }
+ul{
+    display: flex;
+    position: absolute;
+}
 ul,li{
     list-style: none;
+    
 }
 li{
-    position: absolute;
+    display: flex;
+    color: rgb(82, 82, 82);
+    margin-top: -40px;
+    margin-left: 90;
+    transition: 0.5s;
+    cursor: pointer;
 }
 li:hover{
     color: rgb(28, 224, 11);
@@ -130,7 +140,7 @@ a{
     color: rgb(82, 82, 82);
     position: absolute;
     margin-top: -812px;
-    left: 730px;
+    left: 745px;
     transition: 0.5s;
 }
 .SearchBar:hover{
@@ -140,7 +150,7 @@ a{
     color:rgb(82, 82, 82);
     position: absolute;
     margin-top: -812px;
-    left: 790px;
+    left: 840px;
     transition: 0.5s;
 }
 .ShoppingCart:hover{
