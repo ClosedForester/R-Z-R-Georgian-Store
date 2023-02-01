@@ -1,13 +1,12 @@
+/*My Custom Fonts*/
+@font-face{
+    font-family: 'ThinFont';
+    src: url(fonts/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf);
+}
+/*adds Margin and Padding to everything*/
 *{  
     margin: 0;
     padding: 0;   
-}
-.Header{
-    height: 60px;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    margin: 0;
-    padding: 0; 
 }
 .Logo{
     height: 35px;
@@ -19,24 +18,39 @@
     top: 115;
     height: 1.3px;
     width: 100%;
-    
     background-color: rgb(28, 224, 11);
 }
-
-
+/*Maind Header*/
+.Header{
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin: 0;
+    padding: 0; 
+}
+/*Secondary headers*/
 .SecondHeader{
-    
     height: 55px;
     width: 100%;
     background-color: rgb(20, 20, 20);
 }
+.SecondHeader2{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+}
 .ThirdHeader{
-    
     height: 220px;
     width: 100%;
     background-color: rgb(26, 26, 26);
 }
+.FourthHeader{
+    height: 150px;
+    width: 100%;
+    background-color:rgb(26, 26, 26);
+}
 
+/*Gray background things on pc and mobile section*/
 .Square{
     position: absolute;
     margin-top: 220px;
@@ -44,8 +58,12 @@
     width: 100%;
     background-color: rgb(43, 42, 42);
 }
-
-
+.Square2{
+    margin-top: 576px;
+    height: 700px;
+    width: 100%;
+    background-color: rgb(43, 42, 42);  
+}
 .Text1{
     color: rgb(255, 255, 255);
     position: absolute;
@@ -54,7 +72,6 @@
     font-family: Optima, sans-serif;
     font-size: small;
 }
-
 .text2{
     font-family: "Gill Sans", sans-serif;
     font-size: xxx-large;
@@ -66,9 +83,7 @@
     font-size: x-large;
     cursor: pointer;
 }
-.text2:hover{
-    color: rgb(28, 224, 11);
-}
+
 .text3{
     font-family: "Gill Sans", sans-serif;
     font-size: xxx-large;
@@ -80,6 +95,7 @@
     font-size: x-large;
     cursor: pointer;
 }
+/*Nav bars*/
 ul{
     display: flex;
     position: absolute;
@@ -96,9 +112,6 @@ li{
     transition: 0.5s;
     cursor: pointer;
 }
-li:hover{
-    color: rgb(28, 224, 11);
-}
 .Ul2{
     color: rgb(39, 39, 39);
     margin-top: 50px;
@@ -107,6 +120,7 @@ li:hover{
     cursor: pointer;
     font-size: medium;
 }
+/*Texts*/
 .H1{
    font-family: "Gill Sans", sans-serif;
    font-size: xxx-large;
@@ -126,10 +140,7 @@ li:hover{
     bottom: -150px;
     transition: all 0.5s;
 }
-h2:hover{
-    color: rgb(28, 224, 11);
-    cursor: pointer;
-}
+
 .PCh2{
     position: absolute;
     color: rgb(28, 224, 11);
@@ -152,6 +163,49 @@ h2:hover{
     display: flex;
     cursor: pointer;
 }
+/*Console Section texts*/
+.ENGINEERED{
+    position: absolute;
+    color: rgb(28, 224, 11);
+    font-size: xx-large;
+    font-family: ThinFont;
+    left: 570;
+    top: 80;
+}
+.ENGdesc{
+    position: absolute;
+    color: rgb(28, 224, 11);
+    font-size: larger;
+    font-family: ThinFont;
+    left: 250;
+    top: 135;
+}
+.ENGdesc2{
+    position: absolute;
+    color: rgb(28, 224, 11);
+    font-size: larger;
+    font-family: ThinFont;
+    left: 400;
+    top: 170;
+}
+.ENGdesc3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family: ThinFont;
+    left: 530;
+    top: 260;
+    transition: 0.5s;
+}
+.ENGdesc4{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-family: ThinFont;
+    left: 440;
+    top: 310;
+    transition: 0.5s;
+}
 .PCh3:hover{
     color: rgb(28, 224, 11);
 }
@@ -159,6 +213,29 @@ H1:hover{
     color: rgb(28, 224, 11);
     cursor: pointer;
 }
+h2:hover{
+    color: rgb(28, 224, 11);
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(28, 224, 11);
+}
+.text2:hover{
+    color: rgb(28, 224, 11);
+}
+.ShoppingCart:hover{
+    color:rgb(28, 224, 11);
+}
+a{
+    color:rgb(28, 224, 11); 
+ }
+ .SearchBar:hover{
+    color:rgb(28, 224, 11);
+}
+p:hover{
+    color:rgb(28, 224, 11)
+}
+/*Mobile section Texts*/
 .LaptopsTxt{
     position: absolute;
     color: rgb(255, 255, 255);
@@ -240,15 +317,106 @@ H1:hover{
     left: 860px;
     bottom: -200px;
 }
-
-
-
+/*Mobile section texts*/
+.KishiIphoneTxt{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "Gill Sans", sans-serif;
+    font-size: larger;
+    position: absolute;
+    left: 100px;
+    bottom: -510px;
+}
+.KishiIphoneDesc2{
+    position: absolute;
+    color: rgb(114, 114, 114);
+    font-family: "Gill Sans", sans-serif;
+    font-size: small;
+    position: absolute;
+    left: 100px;
+    bottom: -535px;
+}
+.LearnMore4{
+    position: absolute;
+    color: rgb(28, 224, 11);
+    font-family: "Gill Sans", sans-serif;
+    font-size: small;
+    position: absolute;
+    left: 100px;
+    bottom: -580px;
+}
+.KishiAndroidTxt{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "Gill Sans", sans-serif;
+    font-size: larger;
+    position: absolute;
+    left: 500px;
+    bottom: -510px;
+}
+.KishiAndroidDesc{
+    position: absolute;
+    color: rgb(114, 114, 114);
+    font-family: "Gill Sans", sans-serif;
+    font-size: small;
+    position: absolute;
+    left: 500px;
+    bottom: -535px;
+}
+.LearnMore5{
+    position: absolute;
+    color: rgb(28, 224, 11);
+    font-family: "Gill Sans", sans-serif;
+    font-size: small;
+    position: absolute;
+    left: 500px;
+    bottom: -580px;
+}
+.RazerKishiTxt{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "Gill Sans", sans-serif;
+    font-size: larger;
+    position: absolute;
+    left: 900px;
+    bottom: -510px;
+}
+.RazerKishiDesc{
+    position: absolute;
+    color: rgb(114, 114, 114);
+    font-family: "Gill Sans", sans-serif;
+    font-size: small;
+    position: absolute;
+    left: 900px;
+    bottom: -560px;
+}
+.LearnMore6{
+    position: absolute;
+    color: rgb(28, 224, 11);
+    font-family: "Gill Sans", sans-serif;
+    font-size: small;
+    position: absolute;
+    left: 900px;
+    bottom: -580px;
+}
+/*IMG11 is actually used in mobile section*/
+.IMG11{
+    position: absolute;
+    top: 115px;   
+    height: 595px;
+    width: 1349;
+}
 .Img1{
     position: absolute;
     top: 105px;   
     height: 759px;
 }
 
+.img2{
+    position: absolute;
+    height: 759px;
+    top: 710;
+}
 .img3{
     position: absolute;
     height: 380;
@@ -268,13 +436,55 @@ H1:hover{
     bottom: -90;
     left: 845;
 }
-
+.img6{
+    position: absolute;
+    top: 241px;   
+    height: 492px;
+}
+.img7{
+    position: absolute;
+    height: 381;
+    bottom: -481;
+    left: 87;
+}
+.img8{
+    position: absolute;
+    height: 381;
+    bottom: -481;
+    left: 487;
+}
+.img9{
+    position: absolute;
+    height: 381;
+    bottom: -481;
+    left: 887;
+}
+.img10{
+    position: absolute;
+    top: 211px;   
+    height: 600px;
+    width: 1349px;
+    box-shadow: 10px 10px 10px;
+}
+.img12{
+    position: absolute;
+    top: 811px;   
+    height: 700px;
+    width: 1349px;
+    box-shadow: 5px 5px 5px;
+}
+.img13{
+    position: absolute;
+    top: 1511px;   
+    height: 700px;
+    width: 1349px;
+    box-shadow: 10px 10px 10px;
+}
 a:link {
     text-decoration: none;
 }
-a{
-   color:rgb(28, 224, 11); 
-}
+
+/*Green Lines*/
 .stick{
     width: 1349px;
     height: 10px;
@@ -289,32 +499,28 @@ a{
     position: absolute;
     top: 1469px;
 }
-.img2{
-    position: absolute;
-    height: 759px;
-    top: 710;
-}
+/*SearchBar and Shopping Cart Icons*/
 .SearchBar{
-    color: rgb(82, 82, 82);
+    color: rgb(56, 56, 56);
     position: absolute;
-    margin-top: -812px;
-    left: 745px;
-    transition: 0.5s;
-}
-.SearchBar:hover{
-    color:rgb(28, 224, 11);
-}
-.ShoppingCart{
-    color:rgb(82, 82, 82);
-    position: absolute;
-    margin-top: -812px;
-    left: 840px;
+    left: 1200px;;
+    top: 20;
+    cursor: pointer;
+    font-size: x-large;
     transition: 0.5s;
 }
 
-.ShoppingCart:hover{
-    color:rgb(28, 224, 11);
+.ShoppingCart{
+    color:rgb(56, 56, 56) ;
+    position: absolute;
+    left: 1270px;;
+    top: 20;
+    cursor: pointer;
+    font-size: x-large;
+    transition: 0.5s;
 }
+
+/*Squares under photos in PC and Mobile*/
 .UnderSquare{
     position: absolute;
     height: 125px;
@@ -339,10 +545,33 @@ a{
     top: 733;
     left: 845;
 }
+.UnderSquare4{
+    position: absolute;
+    height: 125px;
+    width: 381px;
+    background-color: rgb(19, 19, 19);
+    top: 1124;
+    left: 87;
+}
+.UnderSquare5{
+    position: absolute;
+    height: 125px;
+    width: 381px;
+    background-color: rgb(19, 19, 19);
+    top: 1124;
+    left: 487;
+}
+.UnderSquare6{
+    position: absolute;
+    height: 125px;
+    width: 381px;
+    background-color: rgb(19, 19, 19);
+    top: 1124;
+    left: 887;
+}
 .footer{
-    
-    margin-top: 1363;
-    height: 200;
+    margin-top: 1335;
+    height: 215;
     background-color: rgb(20, 20, 20);
 }
 .C{
@@ -361,19 +590,127 @@ a{
     font-size: large;
     transition: 0.5s;
 }
-.MadeBy{
-    color:  rgb(97, 97, 97);
+/*Social media links*/
+.IG{
+    color:  rgb(28, 224, 11);
     position: absolute;
-    bottom: -1000;
-    left: 1100;
+    bottom: -970;
+    left: 620;
     font-size: large;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.FB{
+    color:  rgb(28, 224, 11);
+    position: absolute;
+    bottom: -970;
+    left: 680;
+    font-size: large;
+    font-size: xx-large;
+    cursor: pointer;
+}
+/*Lifestyle Page*/
+.lifestyle{
+    position: absolute;
+    left: 570;
+    font-size: xxx-large;
+    font-family: 'ThinFont';
+    color: rgb(28, 224, 11);
+    top: 95px;
+}
+.chairs{
+    position: absolute;
+    left: 630;
+    font-size: xx-large;
+    font-family: 'ThinFont';
+    color: rgb(255, 255, 255);
+    top: 270px;
     transition: 0.5s;
 }
-.MadeByy{
-    color:  rgb(97, 97, 97);
+.ChairsDesc{
     position: absolute;
-    bottom: -1220;
-    left: 1100;
-    font-size: large;
+    left: 365;
+    font-size: x-large;
+    font-family: 'ThinFont';
+    color: rgb(150, 150, 150);
+    top: 320px;
     transition: 0.5s;
+    cursor: pointer;
+}
+.LearnMore7{
+    position: absolute;
+    left: 625;
+    font-size: x-large;
+    font-family: 'ThinFont';
+    color: rgb(28, 224, 11);
+    top: 390px; 
+    cursor: pointer;
+}
+.Sneki{
+    position: absolute;
+    left: 450;
+    font-size: xx-large;
+    font-family: 'ThinFont';
+    color: rgb(255, 255, 255);
+    top: 870px;
+    transition: 0.5s;
+}
+.SnekiDesc{
+    position: absolute;
+    left: 240;
+    font-size: x-large;
+    font-family: 'ThinFont';
+    color: rgb(150, 150, 150);
+    top: 920px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.SnekiDesc2{
+    position: absolute;
+    left: 370;
+    font-size: x-large;
+    font-family: 'ThinFont';
+    color: rgb(150, 150, 150);
+    top: 950px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.LearnMore8{
+    position: absolute;
+    left: 625;
+    font-size: x-large;
+    font-family: 'ThinFont';
+    color: rgb(28, 224, 11);
+    top: 1000px; 
+    cursor: pointer;
+}
+.Setup{
+    position: absolute;
+    left: 565;
+    font-size: x-large;
+    font-family: 'ThinFont';
+    color: rgb(150, 150, 150);
+    top: 1580px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.SetupDesc{
+    position: absolute;
+    left: 592;
+    font-size: larger;
+    font-family: 'ThinFont';
+    color: rgb(150, 150, 150);
+    top: 1620px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.LearnMore9{
+    position: absolute;
+    left: 618;
+    font-size: x-large;
+    font-family: 'ThinFont';
+    color: rgb(28, 224, 11);
+    top: 1690px;
+    transition: 0.5s;
+    cursor: pointer;
 }
